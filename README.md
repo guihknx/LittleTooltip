@@ -12,16 +12,25 @@ containerClass
 ``` 
 (string)
 Our container class, used to call it
-```attr2Text ```
+
+```
+attr2Text 
+```
 (string)
 Attribute will give us the text 2 display
-```followMouse```
+```
+followMouse
+```
 (bool)
 Tooltips will follow mouseovering?
-```mouseY
-mouseX```
+```
+mouseY
+mouseX
+```
 (string)
 If followMouse is false, set default positions
-```container```
+```
+container
+```
 (string)
 Our container Element
