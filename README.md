@@ -34,3 +34,18 @@ container
 ```
 (string)
 Our container Element
+
+Example of use:
+
+```js
+$(function() {
+    $('.tooltip').LTooltip({
+    	containerClass: 'my-tooltip'
+    	,attr2text: 'data-tooltip'
+    	,followMouse: true
+    	,mouseY: 0
+    	,mouseX: 0
+    	,container: $('<span />').appendTo('body')
+	});
+});
+```
